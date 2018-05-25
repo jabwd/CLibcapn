@@ -1,0 +1,5 @@
+module CLibcapn [system] {
+	header "shim.h"
+	link "capn"
+	export *
+}
